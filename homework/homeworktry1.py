@@ -1,5 +1,6 @@
 def sum(num1, num2):
-    return num1 + num2
-
-result = sum(5,10)
-print(result)
+    num1 = float(input ("enter first num"))
+    num2 = float(input ("enter second num"))
+    result = num1 + num2
+    return(result)
+print("result")
