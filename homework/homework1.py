@@ -10,7 +10,4 @@ result = sum()
 a = "Резултат:              "
 
 print(a,result)
-print("""        
-       Довиждане!
-       
-      """)
+print("""            Довиждане! """)
