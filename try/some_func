@@ -1,40 +1,37 @@
 print("""
       Sum of two numbers:""")
 def sum():
-    num1 = float(input("enter first num:  "))
+    num1 = float(input("enter first  num: "))
     num2 = float(input("enter second num: "))
     result = num1 + num2
     return(result)
 result = sum()
 
 print(result)
-print("Thanks for using!")
 
 
 print("""
       Minus of two numbers:""")
 def minus():
-    num1 = float(input("enter first num:  "))
+    num1 = float(input("enter first  num: "))
     num2 = float(input("enter second num: "))
     result = num1 - num2
     return(result)
 result = minus()
 
 print(result)
-print("Thanks for using!")
 
 
 print("""
       Multiple two numbers: """)
 def multiple():
-    num1 = float(input("enter first num: "))
+    num1 = float(input(" enter first  num: "))
     num2 = float(input(" enter second num: "))
     result = num1 * num2
     return(result)
 result= multiple()
 
 print(result)
-print("Thanks for using!")
 
 
 print("""
@@ -47,14 +44,13 @@ def divide():
 result = divide()
 
 print(result)
-print("Thanks for using!")
 
 print("""
       Find percent from whole number""")
 def percentage():
-    part = float(input("enter % we looking for "))
-    whole = float(input("enter whole num "))
-    percent = 100 * part / whole
+    part = float(input(" enter % we looking for: "))
+    whole = float(input("enter whole num: "))
+    percent = ((part * whole) / 100)
     return(percent)
 percent = percentage()
 a = "%"
