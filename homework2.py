@@ -9,7 +9,7 @@ str1 = "Mincho"
 str2 = "Nikolaev"
 str3 = "Minchev"
 
-print((str1) +"\n"+ (str2) +"\n"+ (str3)) 
+print(str1 +"\n"+ str2 +"\n"+ str3) 
 
 #3
 mylist =[1, 5, 10, "zdc", 32, True]
