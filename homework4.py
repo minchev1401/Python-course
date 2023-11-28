@@ -20,5 +20,5 @@ first_letter = split1[0]
 fourth_letter = split2
 last_letter_ = split3[1]
 
-print(f"{first_letter}{fourth_letter}{last_letter_}")
+print(f"The result is: {first_letter}{fourth_letter}{last_letter_}")
 
